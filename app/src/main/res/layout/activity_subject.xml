@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".SubjectActivity">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:background="@android:color/transparent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@android:color/transparent"
+        android:padding="20dp">
+
+
+
+        <Button
+            android:id="@+id/hindi"
+            android:text="@string/hindi"
+            style="@style/subjectButton" />
+
+        <Button
+            android:id="@+id/maths"
+            android:text="@string/maths"
+            style="@style/subjectButton" />
+
+
+        <Button
+            android:id="@+id/english"
+            android:text="@string/english"
+            style="@style/subjectButton" />
+
+        <Button
+            android:id="@+id/geography"
+            android:text="@string/geography"
+            style="@style/subjectButton" />
+
+
+        <Button
+            android:id="@+id/history"
+            android:text="@string/history"
+            style="@style/subjectButton" />
+
+        <Button
+            android:id="@+id/socialstudy"
+            android:text="@string/socialstudy"
+            style="@style/subjectButton" />
+
+
+        <Button
+            android:id="@+id/economics"
+            android:text="@string/economics"
+            style="@style/subjectButton" />
+
+        <Button
+            android:id="@+id/punjabi"
+            android:text="@string/punjabi"
+            style="@style/subjectButton" />
+
+        <Button
+            android:id="@+id/evs"
+            android:text="@string/evs"
+            style="@style/subjectButton" />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

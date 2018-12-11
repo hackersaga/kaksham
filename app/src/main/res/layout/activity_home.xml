@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:padding="8dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            style="@style/classrow"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/class2"
+                android:text="@string/class2"
+                style="@style/appButton" />
+
+            <View
+                android:layout_width="@dimen/class_sep_width"
+                android:layout_height="@dimen/class_sep_height"/>
+
+            <Button
+                android:id="@+id/class3"
+                android:text="@string/class3"
+                style="@style/appButton" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            style="@style/classrow"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/class4"
+                android:text="@string/class4"
+                style="@style/appButton" />
+
+            <View
+                android:layout_width="@dimen/class_sep_width"
+                android:layout_height="@dimen/class_sep_height"/>
+
+            <Button
+                android:id="@+id/class5"
+                android:text="@string/class5"
+                style="@style/appButton" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            style="@style/classrow"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/class6"
+                android:text="@string/class6"
+                style="@style/appButton" />
+
+            <View
+                android:layout_width="@dimen/class_sep_width"
+                android:layout_height="@dimen/class_sep_height"/>
+
+            <Button
+                android:id="@+id/class7"
+                android:text="@string/class7"
+                style="@style/appButton" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            style="@style/classrow"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/class8"
+                android:text="@string/class8"
+                style="@style/appButton" />
+
+            <View
+                android:layout_width="@dimen/class_sep_width"
+                android:layout_height="@dimen/class_sep_height"/>
+
+            <Button
+                android:id="@+id/class9"
+                android:text="@string/class9"
+                style="@style/appButton" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            style="@style/classrow"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/class10"
+                android:text="@string/class10"
+                style="@style/appButton" />
+
+            <View
+                android:layout_width="@dimen/class_sep_width"
+                android:layout_height="@dimen/class_sep_height"/>
+
+            <Button
+                android:id="@+id/class11"
+                android:text="@string/class11"
+                style="@style/appButton"
+                android:visibility="invisible"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">सक्षम कक्षा</string>
+    <string name="source_google_drive">Google Drive</string>
+    <string name="start_drive">Start Google Drive</string>
+    <string name="login">Log In</string>
+    <string name="logout">Log Out</string>
+    <string name="status_logged_out">Logged Out</string>
+    <string name="status_logged_in">Logged In</string>
+    <string name="status_user_cancelled">User Cancelled</string>
+    <string name="status_error">We found a problem: %1$s</string>
+    <string name="not_open_file">Could not open file</string>
+
+    <string name="class2">कक्षा 2</string>
+    <string name="class3">कक्षा 3</string>
+    <string name="class4">कक्षा 4</string>
+    <string name="class5">कक्षा 5</string>
+    <string name="class6">कक्षा 6</string>
+    <string name="class7">कक्षा 7</string>
+    <string name="class8">कक्षा 8</string>
+    <string name="class9">कक्षा 9</string>
+    <string name="class10">कक्षा 10</string>
+    <string name="class11">कक्षा 11</string>
+
+
+    <string name="hindi">हिंदी</string>
+    <string name="maths">गणित</string>
+    <string name="english">अंग्रेज़ी</string>
+    <string name="geography">भूगोल</string>
+    <string name="history">इतिहास</string>
+    <string name="socialstudy">सामाजिक अध्ययन</string>
+    <string name="economics">अर्थशास्त्र</string>
+    <string name="punjabi">पंजाबी</string>
+    <string name="evs">पर्यावरण</string>
+
+
+</resources>
