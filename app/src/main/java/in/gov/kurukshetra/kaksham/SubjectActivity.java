@@ -14,7 +14,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 
 
-public class SubjectActivity extends AppCompatActivity {
+public class SubjectActivity extends MixpanelActivity {
 
 
     private Button hindi, maths, english, geography, history, socialstudy, economics, punjabi, evs;
@@ -24,6 +24,7 @@ public class SubjectActivity extends AppCompatActivity {
     private JSONObject urlMap ;
     private JSONObject subjectMap;
     HashMap<String, Object> keyButtonMap = new HashMap<String, Object>() ;
+    private final String SCREEN_NAME = "Subject Select Screen";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,6 +86,7 @@ public class SubjectActivity extends AppCompatActivity {
         }catch (Exception e){
             e.printStackTrace();
         }
+        screenOpened(SCREEN_NAME);
 
     }
 
@@ -135,7 +137,8 @@ public class SubjectActivity extends AppCompatActivity {
     private void openSubjectScreen(String subject){
         try {
             Intent intent = new Intent(SubjectActivity.this, DriveWebviewActivity.class);
-
+            subjectButtonClicked(subject);
+            trackClassSubject(classNumber, subject);
             String url = subjectMap.getString(subject);
             intent.putExtra("url", url);
             startActivity(intent);

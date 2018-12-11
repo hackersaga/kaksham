@@ -7,9 +7,10 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
 
-public class DriveWebviewActivity extends AppCompatActivity {
+public class DriveWebviewActivity extends MixpanelActivity{
 
     private WebView webView;
+    private final String SCREEN_NAME = "Drive Page";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +24,7 @@ public class DriveWebviewActivity extends AppCompatActivity {
         if(null == url){
             url = "www.google.com";
         }
+        screenOpened(SCREEN_NAME);
         webView = (WebView) findViewById(R.id.webView);
 
         webView.setWebViewClient(new WebViewClient());
